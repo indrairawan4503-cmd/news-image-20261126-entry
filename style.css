@@ -1,0 +1,51 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1024px; height: 1024px; overflow: hidden; background: #f7f1e3; }
+body { font-family: Georgia, 'Times New Roman', serif; color: #111; }
+.page { width: 1024px; height: 1024px; padding: 10px 16px 8px; background: #f7f1e3; }
+
+/* ---------- Masthead ---------- */
+.masthead { text-align: center; border-bottom: 4px solid #111; padding-bottom: 4px; }
+.masthead h1 { font-size: 68px; line-height: 0.95; letter-spacing: 5px; font-weight: 900; }
+.masthead h1 .red { color: #b91c1c; }
+.dateline { display: flex; justify-content: space-between; border-bottom: 2px solid #111; padding: 4px 2px; font-family: Arial, Helvetica, sans-serif; font-size: 13.5px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; }
+.dateline .date { color: #b91c1c; font-size: 15px; }
+
+/* ---------- Lead strip ---------- */
+.lead { text-align: center; padding: 6px 10px 5px; border-bottom: 1px solid #999; }
+.lead .kicker { font-family: Arial, sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 3px; color: #b91c1c; text-transform: uppercase; }
+.lead h2 { font-size: 27px; line-height: 1.1; font-weight: 900; }
+.lead p { font-size: 13px; line-height: 1.25; margin-top: 2px; font-style: italic; }
+
+/* ---------- Main grid ---------- */
+.main { display: flex; gap: 10px; margin-top: 8px; }
+.col { width: 254px; flex: none; display: flex; flex-direction: column; gap: 8px; }
+.center { width: 460px; flex: none; }
+
+.panel { border: 1.5px solid #111; background: #fffdf6; padding: 7px 8px 6px; }
+.panel h3 { font-family: Arial, sans-serif; font-size: 13px; font-weight: 900; letter-spacing: 2.5px; color: #fff; background: #111; padding: 3px 6px; margin: -7px -8px 6px; text-transform: uppercase; }
+.panel h3.red { background: #b91c1c; }
+.panel h3.navy { background: #1e3a5f; }
+.story { margin-bottom: 4px; padding-bottom: 4px; border-bottom: 1px solid #c9c2ae; }
+.story:last-child { margin-bottom: 0; padding-bottom: 0; border-bottom: none; }
+.story h4 { font-size: 14.5px; line-height: 1.12; font-weight: 800; }
+.story p { font-size: 11px; line-height: 1.25; margin-top: 1px; }
+
+/* ---------- Central illustration ---------- */
+.hero { border: 2px solid #111; background: #0b1530; }
+.hero svg { display: block; width: 100%; height: 308px; }
+.caption { font-size: 12px; line-height: 1.3; padding: 6px 9px 7px; background: #fffdf6; border-top: 1.5px solid #111; }
+.caption b { font-size: 13.5px; }
+.caption .tag { font-family: Arial, sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 2px; color: #b91c1c; text-transform: uppercase; }
+.center-note { margin-top: 8px; border: 1.5px solid #111; background: #fffdf6; padding: 7px 9px; }
+.center-note h4 { font-size: 15.5px; line-height: 1.15; font-weight: 800; }
+.center-note p { font-size: 11.5px; line-height: 1.28; margin-top: 2px; }
+
+/* ---------- Bottom numbers strip ---------- */
+.numbers { margin-top: 12px; border: 2px solid #111; background: #111; color: #f7f1e3; padding: 7px 10px 7px; }
+.numbers .label { font-family: Arial, sans-serif; font-size: 12px; font-weight: 900; letter-spacing: 3px; color: #f2b705; text-transform: uppercase; text-align: center; }
+.numrow { display: flex; justify-content: space-between; margin-top: 4px; }
+.ncell { width: 19%; text-align: center; border-left: 1px solid #555; padding: 0 6px; }
+.ncell:first-child { border-left: none; }
+.ncell .big { font-size: 21px; font-weight: 900; color: #fff; line-height: 1; }
+.ncell .what { font-family: Arial, sans-serif; font-size: 10px; line-height: 1.2; margin-top: 2px; color: #ddd; }
+.footer { text-align: center; font-family: Arial, sans-serif; font-size: 10.5px; letter-spacing: 1px; color: #555; padding-top: 4px; text-transform: uppercase; }
